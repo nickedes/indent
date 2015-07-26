@@ -3,5 +3,8 @@ python:
   - "3.2"
   - "3.3"
   - "3.4"
+# command to install dependencies
+install: pip install pytest
 # command to run tests
-script: indent
+script: py.test -q test.py
+sudo: false
