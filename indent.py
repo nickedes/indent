@@ -19,5 +19,9 @@ def indentation(string, indent, count):
     if count == 0:
         return string
 
+    splitted = string.split('\n')
+    for i in range(len(splitted)):
+        splitted[i] = count*indent + splitted[i]
+        print(splitted[i])
 
-print(indentation('Uni\nRain', 'd', 0))
+    return splitted
