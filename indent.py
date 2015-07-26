@@ -5,4 +5,7 @@ def indentation(string, indent):
     string -- The string you want to indent.
     indent -- The string to use for the indent.
     """
-    pass
+    if type(string) is str and type(indent) is str:
+        pass
+    else:
+        raise TypeError("Should be string")
