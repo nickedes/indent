@@ -9,19 +9,14 @@ def indentation(string, indent, count):
     # Type check for string and indent
     if type(string) is not str or type(indent) is not str:
         raise TypeError("Should be string")
-    else:
-        pass
     # Type check for count
-    if type(count) is not int:
+    if type(count) is not int or count is None:
         raise TypeError("count should be Integer")
-    else:
-        pass
     if count == 0:
         return string
 
     splitted = string.split('\n')
     for i in range(len(splitted)):
         splitted[i] = count*indent + splitted[i]
-        print(splitted[i])
 
-    return splitted
+    return '\n'.join(splitted)
