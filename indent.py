@@ -1,4 +1,4 @@
-def indentation(string, indent, count):
+def indentation(string, indent, count=1):
     """Indents a string.
 
     Keyword arguments:

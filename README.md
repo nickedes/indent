@@ -17,6 +17,7 @@ indentation('Shadab\nZafar', '&', 3)
 ### string
 
 **Required**
+
 Type: `string`
 
 The string you want to indent.
@@ -24,6 +25,7 @@ The string you want to indent.
 ### indent
 
 **Required**
+
 Type: `string`
 
 The string to use for the indent.
@@ -31,9 +33,11 @@ The string to use for the indent.
 ### count
 
 **Required**
-Type: `number`
 
-How many times you want indent repeated.
+Type: `number`
+Default: `1`
+
+How many times you want `indent` repeated.
 
 # Todo
 Make `count` as a default parameter.
