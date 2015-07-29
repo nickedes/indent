@@ -2,7 +2,7 @@
 > Indent each line in a string
 
 # Usage
-```
+```python
 from indent import indentation
 
 indentation('Shadab\nZafar', '&', 3)
