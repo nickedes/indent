@@ -1,9 +1,16 @@
 # indent-string [![Build Status](https://travis-ci.org/nickedes/indent.svg?branch=master)](https://travis-ci.org/nickedes/indent)
 > Indent each line in a string
 
+# Install
+
+```
+$ apt-get install python3-pip
+$ pip install indent 
+```
+
 # Usage
 ```python
-from indent import indentation
+from indent.indent import indentation
 
 indentation('Shadab\nZafar', '&', 3)
 //=> &&&Shadab 
