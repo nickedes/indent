@@ -6,5 +6,5 @@ python:
 # command to install dependencies
 install: pip install pytest
 # command to run tests
-script: py.test -q test.py
+script: py.test -q indent/test.py
 sudo: false
